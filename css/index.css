@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Titillium+Web:wght@700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  /*overflow-x: hidden;*/
+}
+
+/*
+NAV
+*/
+.text-gold {
+  color: #ffd700;
+}
+
+.navbar.bg-gray {
+  background-color: #929292;
+}
+
+.nav-link:hover {
+  outline: 2px;
+  background-color: #ffd700;
+  opacity: 70%;
+}
+
+/*
+INICIO
+*/
+.inicio {
+  background-image: url("/images/inicio.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.nombre {
+  color: #ffd700;
+  text-align: left;
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .inicio {
+    background-image: url("/images/inicio2.jpg");
+  }
+
+  .nombre {
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+/*
+PRESENTACIÓN
+*/
+.presentacion {
+  background-color: #bdbdbd;
+}
+
+.justified-text {
+  text-align: justify;
+}
+
+#modified-p {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #modified-p {
+    padding-left: 0px;
+  }
+}
+
+/*
+CARACTERÍSTICAS
+*/
+.caracteristicas {
+  background-color: #d9b800;
+}
+
+/*
+BENEFICIOS
+*/
+.card {
+  height: 100%;
+}
