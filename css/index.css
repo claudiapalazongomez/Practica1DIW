@@ -31,7 +31,7 @@ NAV
 INICIO
 */
 .inicio {
-  background-image: url("C:\\xampp3\\htdocs\\DIW\\Practica1-DIW\\images\\inicio.png");
+  background-image: url("../images/inicio.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,7 +46,7 @@ INICIO
 
 @media screen and (max-width: 768px) {
   .inicio {
-    background-image: url("C:\\xampp3\\htdocs\\DIW\\Practica1-DIW\\images\\inicio2.jpg");
+    background-image: url("../images/inicio2.jpg");
   }
 
   .nombre {
